@@ -165,8 +165,8 @@ section {
 }
 
 .home-image {
-  width: 410px;
-  height: 410px;
+  width: 380px;
+  height: 380px;
   opacity: 0;
   animation: zoomIn 1s ease forwards, floatImage 3s ease-in-out infinite;
   animation-delay: 2.1s, 3.1s;
@@ -185,7 +185,7 @@ section {
 .home-image .glowing-circle::after {
   content: '';
   position: absolute;
-  width: 380px;
+  width: 350px;
   height: 380px;
   background: #000;
   border-radius: 50%;
@@ -206,15 +206,15 @@ section {
 
 .glowing-circle .image {
   position: relative;
-  width: 380px;
-  height: 380px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   z-index: 1;
   overflow: hidden;
 }
 
 .image img {
-  max-width: 300px;
+  max-width: 270px;
   object-fit: cover;
   position: absolute;
   top: 80px;

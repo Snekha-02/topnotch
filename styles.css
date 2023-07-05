@@ -165,8 +165,8 @@ section {
 }
 
 .home-image {
-  width: 380px;
-  height: 380px;
+  width: 410px;
+  height: 410px;
   opacity: 0;
   animation: zoomIn 1s ease forwards, floatImage 3s ease-in-out infinite;
   animation-delay: 2.1s, 3.1s;
@@ -185,8 +185,8 @@ section {
 .home-image .glowing-circle::after {
   content: '';
   position: absolute;
-  width: 350px;
-  height: 350px;
+  width: 380px;
+  height: 380px;
   background: #000;
   border-radius: 50%;
 }
@@ -206,15 +206,15 @@ section {
 
 .glowing-circle .image {
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 380px;
+  height: 380px;
   border-radius: 50%;
   z-index: 1;
   overflow: hidden;
 }
 
 .image img {
-  max-width: 270px;
+  max-width: 300px;
   object-fit: cover;
   position: absolute;
   top: 80px;
@@ -661,12 +661,6 @@ img {
     margin: 10px 0;
   }
 
-  .social-media{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
 }
 
 @media (max-width: 617px){
@@ -679,5 +673,23 @@ img {
 @media (max-width: 450px){
   html{
     font-size: 50%;
+  }
+}
+
+@media (max-width: 365px){
+  .home-image{
+    width: 350px;
+    height: 350px;
+  }
+  .home-image .glowing-circle::after{
+    width: 330px;
+    height: 330px;
+  }
+  .glowing-circle .image{
+    width: 330px;
+    height: 330px;
+  }
+  .image img{
+    max-width: 240px;
   }
 }

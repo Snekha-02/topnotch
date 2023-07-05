@@ -351,8 +351,6 @@ img {
 
 .contact-info {
   display: flex;
-  width: 100%;
-  max-width: 1200px;
   align-items: center;
   justify-content: center;
 }
@@ -360,6 +358,8 @@ img {
 .ccard {
   background: #191919;
   padding: 0 20px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 10px;
   width: 250px;
   height: 150px;

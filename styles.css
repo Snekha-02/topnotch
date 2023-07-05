@@ -258,7 +258,7 @@ span {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 /* .box::-webkit-scrollbar {
@@ -314,7 +314,7 @@ span {
 
 .para p {
   color: #fcfc;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 28px;
   margin-bottom: 25px;
 }
@@ -324,11 +324,13 @@ span {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .container-box .container {
   display: flex;
+  width: 340px;
+  height: 335px;
   position: relative;
   overflow: hidden;
   border-radius: 20px;
@@ -548,7 +550,7 @@ img {
 
 @media (max-width: 1200px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
   
 }
@@ -618,7 +620,7 @@ img {
   .home-image{
     width: 330px;
     height: 330px;
-    margin-top: 4rem;
+    margin-top: 5rem;
   }
   .home-image .glowing-circle::after{
     width: 310px;

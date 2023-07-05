@@ -328,12 +328,12 @@ span {
 }
 
 .container-box .container {
+  display: flex;
+  align-items: center;
   width: 340px;
   height: 335px;
   position: relative;
   overflow: hidden;
-  text-align: center;
-  align-items: center;
   border-radius: 20px;
 }
 

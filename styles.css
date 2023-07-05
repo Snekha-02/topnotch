@@ -640,20 +640,20 @@ img {
   }
 
   .home-image{
-    width: 350px;
-    height: 350px;
+    width: 330px;
+    height: 330px;
     margin-top: 4rem;
   }
   .home-image .glowing-circle::after{
-    width: 330px;
-    height: 330px;
+    width: 310px;
+    height: 310px;
   }
   .glowing-circle .image{
-    width: 330px;
-    height: 330px;
+    width: 310px;
+    height: 310px;
   }
   .image img{
-    max-width: 240px;
+    max-width: 220px;
   }
 
   .title h2 {

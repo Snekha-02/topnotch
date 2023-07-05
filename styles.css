@@ -186,7 +186,7 @@ section {
   content: '';
   position: absolute;
   width: 350px;
-  height: 380px;
+  height: 350px;
   background: #000;
   border-radius: 50%;
 }
@@ -661,6 +661,12 @@ img {
     margin: 10px 0;
   }
 
+  .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 @media (max-width: 617px){
@@ -673,15 +679,5 @@ img {
 @media (max-width: 450px){
   html{
     font-size: 50%;
-  }
-}
-
-@media (max-width: 365px){
-  .footer {
-    flex-direction: column-reverse;
-  }
-  .footer p {
-    text-align: center;
-    margin-top: 2rem;
   }
 }

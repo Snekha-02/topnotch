@@ -590,8 +590,8 @@ img {
     font-size: 50%;
   }
   .home-image{
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 340px;
   }
   .home-image .glowing-circle::after{
     width: 320px;
@@ -602,7 +602,7 @@ img {
     height: 320px;
   }
   .image img{
-    max-width: 240px;
+    max-width: 230px;
   }
 }
 

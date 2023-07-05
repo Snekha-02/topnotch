@@ -589,6 +589,18 @@ img {
   html {
     font-size: 50%;
   }
+  
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 3rem 4%;
+  }
+
+  section {
+    padding: 10rem 3% 2rem;
+  }
+
   .home-image{
     width: 340px;
     height: 340px;
@@ -603,16 +615,6 @@ img {
   }
   .image img{
     max-width: 230px;
-  }
-}
-
-@media (max-width: 991px) {
-  .header {
-    padding: 3rem 4%;
-  }
-
-  section {
-    padding: 10rem 3% 2rem;
   }
 
 }

@@ -674,9 +674,6 @@ img {
   html{
     font-size: 50%;
   }
-}
-
-@media (max-width: 365px){
   .home-image{
     width: 350px;
     height: 350px;
@@ -692,4 +689,8 @@ img {
   .image img{
     max-width: 240px;
   }
+}
+
+@media (max-width: 365px){
+  
 }

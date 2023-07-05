@@ -349,12 +349,6 @@ img {
   width: 100%
 }
 
-.contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .contact-info {
   display: flex;
   width: 100%;

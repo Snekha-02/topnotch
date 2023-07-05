@@ -663,16 +663,10 @@ img {
 
 }
 
-@media (max-width: 617px){
+@media (max-width: 630px){
   .container-box {
     grid-template-columns: 1fr;
     padding: 20px;
-  }
-}
-
-@media (max-width: 450px){
-  html{
-    font-size: 50%;
   }
   .home-image{
     width: 350px;
@@ -689,6 +683,13 @@ img {
   .image img{
     max-width: 240px;
   }
+}
+
+@media (max-width: 450px){
+  html{
+    font-size: 50%;
+  }
+  
 }
 
 @media (max-width: 365px){

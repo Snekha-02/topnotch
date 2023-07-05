@@ -608,7 +608,7 @@ img {
 
 @media (max-width: 991px) {
   .header {
-    padding: 2rem 3%;
+    padding: 3rem 4%;
   }
 
   section {
@@ -620,10 +620,6 @@ img {
 @media (max-width:768px) {
   #menu-icon {
     display: block;
-  }
-
-  .header {
-    padding: 3rem 4%;
   }
 
   .navbar {

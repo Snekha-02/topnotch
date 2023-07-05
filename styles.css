@@ -589,27 +589,26 @@ img {
     font-size: 55%;
   }
   .home-image{
-    width: 380px;
-    height: 380px;
+    width: 350px;
+    height: 350px;
     margin-top: 4rem;
   }
   .home-image .glowing-circle::after{
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
   }
   .glowing-circle .image{
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
   }
   .image img{
-    max-width: 270px;
+    max-width: 240px;
   }
 }
 
 @media (max-width: 991px) {
   .header {
-    padding: 3rem 4%;
-    margin-top: 20px;
+    padding: 2rem 3%;
   }
 
   section {
@@ -621,6 +620,10 @@ img {
 @media (max-width:768px) {
   #menu-icon {
     display: block;
+  }
+
+  .header {
+    padding: 4rem 5%;
   }
 
   .navbar {

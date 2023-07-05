@@ -34,6 +34,7 @@ body {
 
 .header .sticky {
   border-bottom: .1rem solid #000;
+  position: fixed;
 }
 
 .logo {
@@ -586,12 +587,11 @@ img {
 
 @media (max-width: 1200px) {
   html {
-    font-size: 55%;
+    font-size: 50%;
   }
   .home-image{
     width: 350px;
     height: 350px;
-    margin-top: 4rem;
   }
   .home-image .glowing-circle::after{
     width: 320px;

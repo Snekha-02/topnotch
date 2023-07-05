@@ -255,15 +255,13 @@ span {
 }
 
 .box {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  height: 400px;
-  overflow-y: auto;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
 }
 
-.box::-webkit-scrollbar {
+/* .box::-webkit-scrollbar {
   width: 8px;
   background-color: #191919;
 }
@@ -275,7 +273,7 @@ span {
 
 .box::-webkit-scrollbar-thumb:hover {
   background-color: #c00;
-}
+} */
 
 .box .card {
   transition: 0.5s ease;
@@ -321,6 +319,7 @@ span {
   margin-bottom: 25px;
 }
 
+
 .container-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -353,14 +352,14 @@ img {
   display: flex;
   width: 100%;
   max-width: 1200px;
-  margin: 0 10px;
+  padding: 0 20px;
   align-items: center;
   justify-content: center;
 }
 
 .ccard {
   background: #191919;
-  padding: 0 20px;
+  margin: 0 10px;
   width: 250px;
   height: 150px;
   display: flex;
@@ -637,6 +636,10 @@ img {
     margin-bottom: 3rem;
   }
 
+  .box{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .container-box {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -648,16 +651,19 @@ img {
   .ccard{
     width: 100%;
     max-width: 500px;
+    margin: 10px 0;
   }
+
+
 
 }
 
 @media (max-width: 630px){
   .container-box {
     grid-template-columns: 1fr;
-    padding: 20px;
+    padding-bottom: 25px;
   }
-  
+
 }
 
 @media (max-width: 450px){

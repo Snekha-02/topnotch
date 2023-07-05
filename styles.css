@@ -25,7 +25,7 @@ body {
   left: 0;
   width: 100%;
   padding: 2rem 9%;
-  background: transparent;
+  background: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .header .sticky {
-  border-bottom: .1rem solid #191919;
+  border-bottom: .1rem solid #000;
 }
 
 .logo {
@@ -599,9 +599,23 @@ img {
     padding: 10rem 3% 2rem;
   }
 
-  .footer {
-    padding: 2rem 3%;
+  .home-image{
+    width: 380px;
+    height: 380px;
+    margin-top: 4rem;
   }
+  .home-image .glowing-circle::after{
+    width: 350px;
+    height: 350px;
+  }
+  .glowing-circle .image{
+    width: 350px;
+    height: 350px;
+  }
+  .image img{
+    max-width: 270px;
+  }
+
 }
 
 @media (max-width:768px) {

@@ -324,15 +324,16 @@ span {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .container-box .container {
-  display: flex;
   width: 340px;
   height: 335px;
   position: relative;
   overflow: hidden;
+  text-align: center;
+  align-items: center;
   border-radius: 20px;
 }
 

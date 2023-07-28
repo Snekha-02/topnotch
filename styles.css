@@ -25,7 +25,7 @@ body {
   left: 0;
   width: 100%;
   padding: 2rem 9%;
-  background: transparent;
+  background: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,6 +45,7 @@ body {
   opacity: 0;
   animation: slideTop 1s ease forwards;
 }
+
 
 #menu-icon {
   font-size: 3.6rem;
@@ -81,7 +82,11 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: url("images/bg/BG_06.png");
+  /* background-image: url("images/bg/BG_06.png"); */
+  /* background: linear-gradient(to bottom, #e5b321 0%, #000 50%); */
+  /* background: linear-gradient(109.6deg, #000 11.2%, #e5b321 100.2%); */
+  /* background: linear-gradient(to top right, #000000 0%, #ffffff 100%); */
+  background: #000;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -133,7 +138,7 @@ section {
   top: 0;
   inset: 0;
   left: 0;
-  background: linear-gradient(45deg, #fbcb0c, #0d5b42, #fbcb0c);
+  background: linear-gradient(45deg, #fbcb0c, yellowgreen, #fbcb0c);
   z-index: -1;
   border-radius: 30px;
   background-size: 200%;
@@ -152,7 +157,7 @@ section {
   top: 0;
   inset: 0;
   left: 0;
-  background: linear-gradient(45deg, #fbcb0c, #0d5b42, #fbcb0c);
+  background: linear-gradient(45deg, #fbcb0c, yellowgreen, #fbcb0c);
   background-position: 0 0;
   background-size: 200%;
   z-index: -1;
@@ -196,7 +201,7 @@ section {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#fbcb0c, #0d5b42);
+  background: linear-gradient(#fbcb0c, #9acd32);
   border-radius: 50%;
   animation: circleRotate 4s linear infinite;
 }
@@ -224,13 +229,15 @@ section {
 }
 
 .about {
-  background-image: url('images/bg/BG_03.png');
+  /* background-image: url('images/bg/BG_03.png'); */
+  background: #fff;
   background-size: cover;
   background-position: center;
 }
 
 .about p {
   font-size: 18px;
+  color: #000;
   margin: 20px 0 40px;
   letter-spacing: .15rem;
   line-height: 1.35;
@@ -239,20 +246,32 @@ section {
 
 
 .title h2 {
-  color: #fff;
+  color: #000;
   margin-bottom: 3.5rem;
   font-size: 5rem;
   text-align: center;
 }
 
 span {
+  color: yellowgreen;
+}
+
+span:hover {
   color: #e5b321;
 }
 
 .service {
-  background-image: url('images/bg/BG_04.png');
+  /* background-image: url('images/bg/BG_04.png'); */
+  background: #000;
   background-size: cover;
   background-position: center;
+}
+
+.title2 h2 {
+  color: #fff;
+  margin-bottom: 3.5rem;
+  font-size: 5rem;
+  text-align: center;
 }
 
 .service-box {
@@ -346,9 +365,17 @@ span {
 }
 
 .gallery {
-  background-image: url('images/bg/BG_02.png');
+  /* background-image: url('images/bg/BG_02.png'); */
+  background: #fff;
   background-size: cover;
   background-position: center;
+}
+
+.title3 h2 {
+  color: #000;
+  margin-bottom: 3.5rem;
+  font-size: 5rem;
+  text-align: center;
 }
 
 .gallery-box {
@@ -366,11 +393,12 @@ span {
   overflow: hidden;
   border-radius: 20px;
   cursor: pointer;
+  transition: transform .2s;
 }
 
 .gallery-container:hover {
-  border: 2px solid #e5b321;
-  box-shadow: 5px 5px 5px #e5b321;
+  border: 2px solid;
+  transform: scale(1.1);
 }
 
 .wrapper {
@@ -385,14 +413,16 @@ img {
 .gallery1,
 .gallery2 {
   display: none;
-  background-image: url('images/bg/BG_05.png');
+  /* background-image: url('images/bg/BG_05.png'); */
+  background: #fff;
   background-size: cover;
   background-position: center;
 }
 
 .gallery3 {
   display: none;
-  background-image: url('images/bg/BG_05.png');
+  /* background-image: url('images/bg/BG_05.png'); */
+  background: #fff;
   background-size: cover;
   background-position: center;
 }
@@ -401,6 +431,7 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
+  
   width: 100%;
   text-align: center;
 }
@@ -419,15 +450,16 @@ img {
   width: 5rem;
   left: 0;
   height: 5rem;
-  border: .2rem solid #e5b321;
+  border: .2rem solid yellowgreen;
   border-radius: 50%;
   font-size: 2.5rem;
-  background: #e5b321;
+  background: yellowgreen;
   color: #000;
   transition: .5s ease;
 }
 
 .heading a:hover {
+  border: .2rem solid #e5b321;
   background: #000;
   color: #e5b321;
   box-shadow: 0 0 1rem #e5b321;
@@ -439,7 +471,7 @@ img {
 }
 
 .gtitle h2 {
-  color: #fff;
+  color: #000;
   font-size: 5rem;
 }
 
@@ -455,28 +487,31 @@ img {
   align-items: center;
   flex-direction: column;
   background: #000;
-  box-shadow: 0 .1rem .5rem #e5b321;
-  border-top: .8rem solid #e5b321;
-  border-bottom: .8rem solid #e5b321;
+  box-shadow: 0 .1rem .5rem;
+}
+
+.gallery1-slide:active {
+  filter: contrast(100%);
 }
 
 .gallery1-wrapper .gallery1-box {
   padding: 0 3.5rem 0 3.5rem;
-  overflow: hidden;
+
 }
 
 .gallery1-box .swiper-button-next,
 .gallery1-box .swiper-button-prev {
-  color: #e5b321;
+  /* color: #e5b321; */
+  display: none;
 }
 
-.gallery1-box .swiper-button-next {
+/* .gallery1-box .swiper-button-next {
   right: 0;
 }
 
 .gallery1-box .swiper-button-prev {
   left: 0;
-}
+} */
 
 .gallery1-box .swiper-pagination-bullet {
   background: #717171;
@@ -487,9 +522,11 @@ img {
 }
 
 .contact {
-  background-image: url('images/bg/BG_01.png');
+  /* background-image: url('images/bg/BG_01.png'); */
+  background: #000;
   background-size: cover;
   background-position: center;
+  height: 100%;
 }
 
 .title1 {
@@ -530,7 +567,7 @@ img {
 
 .contact-card i {
   font-size: 28px;
-  background: #e5b321;
+  background: yellowgreen;
   width: 60px;
   height: 60px;
   text-align: center;
@@ -541,7 +578,7 @@ img {
 
 .contact-card:hover i {
   background-color: #191919;
-  color: #fff;
+  color: #e5b321;
   border: 2px solid #e5b321;
   transform: scale(1);
 }
@@ -576,15 +613,16 @@ img {
   width: 5rem;
   height: 5rem;
   background: transparent;
-  border: .2rem solid #e5b321;
+  border: .2rem solid yellowgreen;
   border-radius: 50%;
   font-size: 2.5rem;
-  color: #e5b321;
+  color: yellowgreen;
   margin: 3rem 1.5rem 3rem 0;
   transition: .5s ease;
 }
 
 .social-media a:hover {
+  border: .2rem solid #e5b321;
   background: #e5b321;
   color: #000;
   box-shadow: 0 0 1rem #e5b321;
